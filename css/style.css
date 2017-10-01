@@ -546,7 +546,7 @@ form label {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
-  color: #000;
+  color: #a980cd;
 }
 .gtco-heading p {
   font-size: 18px;
@@ -981,6 +981,14 @@ form label {
 #equipe {
   background-color: transparent;
   padding: 0;
+}
+
+#equipe_titulo {
+  margin-bottom: 5%;
+}
+
+#equipe_fotos {
+  margin-bottom: 15%;
 }
 
 
