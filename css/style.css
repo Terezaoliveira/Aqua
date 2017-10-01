@@ -358,7 +358,7 @@
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #52d3aa;
+  color: #0090ca;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -546,7 +546,7 @@ form label {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
-  color: #a980cd;
+  color: #4B63AB;
 }
 .gtco-heading p {
   font-size: 18px;
@@ -991,6 +991,11 @@ form label {
   margin-bottom: 15%;
 }
 
+#eject {
+  color: #c3bec2;
+  font-weight: bold;
+}
+
 
 
 
@@ -1014,14 +1019,13 @@ body {
 }
 
 a {
-  color: #a980cd;
+  color: #4B63AB;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover {
-  text-decoration: underline !important;
-  color: #a980cd !important;
+  color: #4B63AB !important;
 }
 a:focus, a:active {
   outline: none;
@@ -1033,6 +1037,7 @@ p {
   color: #727272;
   font-weight: 300;
   font-family: "Open Sans", Arial, serif;
+  text-align: justify;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -1076,6 +1081,10 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: -7px 1px 13px 2px rgba(0, 0, 0, 0.08);
 }
 
+#cor2 {
+color: #0090CA;
+}
+
 #fh5co-header {
   padding-top: 2em;
   padding-bottom: 0;
@@ -1103,7 +1112,14 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
+
 }
+
+
+  #logo2 {
+   color: #0090CA; 
+  }
+
 #fh5co-header .fh5co-navbar-brand .fh5co-logo:focus, #fh5co-header .fh5co-navbar-brand .fh5co-logo:hover {
   text-decoration: none !important;
 }
@@ -1152,7 +1168,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #fh5co-header .nav li.active a {
-  color: #a980cd;
+  color: #4B63AB;
   background: transparent;
   position: relative;
 }
@@ -1165,7 +1181,7 @@ h1, h2, h3, h4, h5, h6 {
   -ms-border-radius: 50%;
   border-radius: 50%;
   top: -20px;
-  background: #a980cd;
+  background: #4B63AB;
   content: '';
   left: 50%;
   margin-left: -4px;
@@ -1183,7 +1199,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 480px) {
   #fh5co-header .nav li.active a {
     border-bottom: 2px solid transparent;
-    color: #a980cd;
+    color: #4B63AB;
   }
 }
 @media screen and (max-width: 992px) {
@@ -1542,7 +1558,7 @@ ba
 .fh5co-inner .holder-section h3 {
   font-size: 20px;
   text-transform: uppercase;
-  color: #a980cd;
+  color: #4B63AB;
   letter-spacing: 1px;
   font-weight: bold;
 }
@@ -1650,7 +1666,7 @@ ba
 }
 .contact-info li a {
   font-weight: 400 !important;
-  color: #a980cd;
+  color: #4B63AB;
 }
 @media screen and (max-width: 768px) {
   .contact-info {
@@ -1690,15 +1706,38 @@ input[type="text"] {
   font-weight: 18px;
 }
 
-#footer {
-  padding: 60px 0 40px;
+.footer {
+    padding-top:50px;
+    padding-bottom:50px;
+    color:#fff;
+    background:#262d42;
 }
-#footer p {
-  font-size: 14px;
+
+/* For Footer Area */
+
+.main-footer .social{
+    margin-bottom:10px;
 }
-#footer p i.love {
-  color: red;
+.main-footer .social a{
+    color:#c3bec2;
+    font-size:170%;
 }
+.main-footer .social a:hover{
+    color:#ff2b4a;
+}
+.main-footer .social a i{
+    border-right:0px solid #c3bec2;
+    padding:0 10px 0 10px;
+}
+.main-footer .social a i.dribbble{
+    border-right:0;
+}
+.main-footer p{
+    color:#c3bec2;
+    font-size:12px; 
+}
+
+
 
 .fh5co-social-icons a {
   padding: 4px 8px;
@@ -1722,7 +1761,7 @@ input[type="text"] {
   letter-spacing: 2px;
   text-transform: uppercase;
   position: relative;
-  color: #a980cd;
+  color: #4B63AB;
 }
 
 .btn {
@@ -1739,14 +1778,14 @@ input[type="text"] {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #a980cd;
+  background: #4B63AB;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #a980cd;
+  background: #4B63AB;
 }
 .btn:hover, .btn:active, .btn:focus {
   background: #393e46 !important;
@@ -1763,7 +1802,7 @@ input[type="text"] {
   display: inline-block;
   position: relative;
   width: 100%;
-  text-align: right;
+  text-align: center;
 }
 .social li {
   list-style: none;
@@ -1783,7 +1822,7 @@ input[type="text"] {
   transition: 0.5s;
 }
 .social li a:hover, .social li a:focus {
-  color: #a980cd;
+  color: #4B63AB;
   text-decoration: none;
 }
 .social li a i {
